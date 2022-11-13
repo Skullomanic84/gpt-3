@@ -4,7 +4,21 @@ import { CTA, Brand, Navbar } from './components/index';
 
 function App() {
   return (
-    <div>App</div>
+    <div className='App'>
+        {/* navigation section */}
+        <div className='gradient__bg'>
+            <Navbar />
+            <Header />
+        </div>
+        {/* main section */}
+        <Brand />
+        <WhatGPT3 />
+        <Features />
+        <Possibility />
+        <CTA />
+        <Blog />
+        <Footer />
+    </div>
   )
 }
 
