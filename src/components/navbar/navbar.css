@@ -27,7 +27,7 @@
     flex-direction: row;
 }
 
-gpt3__navbar-sign {
+.gpt3__navbar-sign {
    display: flex;
    align-items: center;
    justify-content: flex-end;
